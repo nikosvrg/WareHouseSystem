@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KarveliasAE</string>
+    <string name="map_key" translatable="false">AIzaSyDnXnyvUbgNhWdVaH1KBr03EX9HJhnv2Sk</string>
+    <color name="orange">#ffd700</color>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="fullname">Full Name</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone:</string>
+    <string name="emailreg">Email</string>
+    <string name="email">Email:</string>
+    <string name="online">Online</string>
+    <string name="customerlist">Customer List</string>
+    <string name="tracktruck">Track Truck</string>
+    <string name="warehouse">Warehouse</string>
+    <string name="logout">Log Out</string>
+    <string name="welcome">Welcome</string>
+    <string name="sale">Sale</string>
+    <string name="showkiosks">Show Kiosks</string>
+    <string name="intinerary">Route</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="customer">Customer</string>
+    <string name="registercustomer">Register as a Customer</string>
+    <string name="customername">Customer Name:</string>
+    <string name="language">Language</string>
+    <string name="packet">Name: </string>
+    <string name="wholesale_price">Wholesale price: </string>
+    <string name="re_price">Wholesale price: </string>
+    <string name="qu"></string>
+    <string name="acceptorder">Accept Order</string>
+    <string name="sendorder">Send Order</string>
+    <string name="openscanner">Open Barcode Scanner</string>
+
+
+</resources>

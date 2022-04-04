@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/language"
+        android:title="@string/language"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group
+                android:id="@+id/groudid"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/EnTruckGuy"
+                    android:title="English"
+                    app:showAsAction="never"/>
+                <item
+                    android:id="@+id/GrTruckGuy"
+                    android:title="Ελληνικα"
+                    app:showAsAction="never"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/neo_drom"
+        android:title="@string/intinerary"/>
+    <item android:id="@+id/mark"
+        android:title="@string/showkiosks"/>
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"/>
+
+</menu>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "965140190342",
+    "firebase_url": "https://karveliasae.firebaseio.com",
+    "project_id": "karveliasae",
+    "storage_bucket": "karveliasae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965140190342:android:b0c598de36a6b2f3d06d07",
+        "android_client_info": {
+          "package_name": "com.example.karveliasae"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965140190342-spdcmabnqf2m3e20ov92qt7kq57gcc6v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.karveliasae",
+            "certificate_hash": "40455356f503aa31f3490ec3afe222bcbd650e60"
+          }
+        },
+        {
+          "client_id": "965140190342-sev0kjue61j83i5atm9nh2ofktst24a0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.karveliasae",
+            "certificate_hash": "204ec5caead989c7f75333c0017e89a23a7364f1"
+          }
+        },
+        {
+          "client_id": "965140190342-5i5k6r3a1osjfhb36hipos34nagjre49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp1OQ3d2G5AsJ-n7R8hDuH0P_48zVpaKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965140190342-5i5k6r3a1osjfhb36hipos34nagjre49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

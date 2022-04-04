@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ΚαρβέλιαςΑΕ</string>
+    <string name="map_key" translatable="false">AIzaSyDnXnyvUbgNhWdVaH1KBr03EX9HJhnv2Sk</string>
+    <color name="orange">#ffd700</color>
+    <string name="signup">Εγγραφή</string>
+    <string name="login">Είσοδος</string>
+    <string name="register">Εγγραφή</string>
+    <string name="fullname">Ονοματεπώνυμο</string>
+    <string name="password">Κωδικός πρόσβασης</string>
+    <string name="phone">Τηλέφωνο:</string>
+    <string name="emailreg">Email</string>
+    <string name="email">Email:</string>
+    <string name="customerlist">Λιστα Πελατών</string>
+    <string name="tracktruck">Παρακολούθηση Φορτηγού</string>
+    <string name="warehouse">Αποθήκη</string>
+    <string name="logout">Αποσύνδεση</string>
+    <string name="welcome">Καλώς Ήρθατε</string>
+    <string name="sale">Πωλήσεις</string>
+    <string name="showkiosks">Περίπτερα</string>
+    <string name="intinerary">Δρομολόγιο</string>
+    <string name="online">Σε σύνδεση</string>
+    <string name="latitude">Γεωγραφικό Πλάτος</string>
+    <string name="longitude">Γεωγραφικό Μήκος</string>
+    <string name="customer">Πελάτης</string>
+    <string name="registercustomer">Εγγραφή Νέου Πελάτη</string>
+    <string name="customername">Όνομα Πελάτη</string>
+    <string name="language">Γλώσσα</string>
+    <string name="packet">Πακετο: </string>
+    <string name="wholesale_price">Τιμη Χονδρικής </string>
+    <string name="re_price">Τιμή Λιανικής: </string>
+    <string name="qu"></string>
+    <string name="acceptorder">Αποδοχή Παραγγελίας</string>
+    <string name="sendorder">Αποστολή Παραγγελίας</string>
+    <string name="openscanner">Άνοιγμα Scanner</string>
+
+
+    </resources>

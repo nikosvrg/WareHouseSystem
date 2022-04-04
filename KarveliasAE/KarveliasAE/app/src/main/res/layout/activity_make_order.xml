@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Make_order">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myRecycler"
+        android:layout_width="409dp"
+        android:layout_height="656dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="398dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="6dp"
+        android:background="@android:color/holo_green_light"
+        android:onClick="sendOrder"
+        android:text="@string/sendorder"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

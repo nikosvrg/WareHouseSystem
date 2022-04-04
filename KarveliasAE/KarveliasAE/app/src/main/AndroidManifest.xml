@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.karveliasae">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".MapViewActivity" />
+        <activity android:name=".CustomerActivity" />
+        <activity android:name=".Qr_scanner" />
+        <activity android:name=".Warehouse" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDnXnyvUbgNhWdVaH1KBr03EX9HJhnv2Sk" />
+
+        <activity android:name=".TruckGuy" />
+        <activity android:name=".Company" />
+        <activity android:name=".Tg_all_kiosks" />
+        <activity android:name=".Tg_init" />
+        <activity android:name=".Accept_order" />
+        <activity android:name=".Customers" />
+        <activity android:name=".Make_order" />
+        <activity android:name=".Sale" />
+        <activity android:name=".CustomerListAdapter" />
+        <activity android:name=".TrackTruckGuy" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

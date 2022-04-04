@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/kiosk_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="78dp"
+            android:layout_height="92dp"
+            android:padding="4dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/kioskimg"/>
+
+        <TextView
+            android:id="@+id/customername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/imageview"
+            android:text="@string/customername"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/customeremail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/customername"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/imageview"
+            android:text="@string/email"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/customerphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/customeremail"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@+id/imageview"
+            android:text="@string/phone"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/customerlatitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/customerphone"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@+id/imageview"
+            android:text="@string/latitude"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/customerlongitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/customerlatitude"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@+id/imageview"
+            android:text="@string/longitude"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
