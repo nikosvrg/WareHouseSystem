@@ -1,0 +1,34 @@
+{% extends "HistoryMuseum/base.html" %}
+
+{% block content %}
+
+<div class="container-fluid bg-white">
+    {% for ht in herotheory %}
+        <div class="row">
+            <div class="col-12 p-0">
+                  <div class="cover">
+                        <h1 class="text-black">{{ ht.name }}</h1>
+                      <img class="center" src="{{ ht.hero_img.url }}">
+                 </div>
+            </div>
+        </div>
+
+    <div class="center">
+            <div class="col-12 pt-4 pb-5 mb-2">
+                <div class="hub-content">
+                    <div class="article-body">
+                         <div class="center">
+                        <h2>{{ ht.context }} </h2>
+                            <p>{{ ht.description }}</p>
+                              </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <hr class="mt-4">
+    <p>Διάβασες καλά την θεωρία; Αν νιώθεις ετοιμος να τεστάρεις τις γνώσεις σου:
+    <a href="/HistoryMuseum/Test/{{ hero_id }}">Κάνε το Τεστ</a></p>
+    <hr class="mt-4">
+</div>
+ {% endfor %}
+{% endblock content %}
